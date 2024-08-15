@@ -10,6 +10,6 @@ public class Bucle_While_00 {
             counter++;
         }
 
-        System.out.println("\nBucle finalizado");
+        System.out.println("Bucle finalizado");
     }
 }
