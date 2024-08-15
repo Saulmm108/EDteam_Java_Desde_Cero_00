@@ -39,7 +39,16 @@ public class Operadores_Relacionales_y_Logicos_01 {
         //OPERADORES LOGICOS
 
         boolean isAnd = (a<b) && (b<c);
-        JOptionPane.showMessageDialog(null, "A es mayor a B y B es mayor a C?\n: "+isAnd);
+        //(a<b) = true
+        //(b<c) = true
+        //true && true = true
+        JOptionPane.showMessageDialog(null, "A es mayor a B y B es mayor a C?\n "+isAnd);
+
+        boolean isOr = (a==b) || (b==c);
+        //(a==b) = false
+        //(b==c) = false
+        //false || false = false
+        JOptionPane.showMessageDialog(null, "A es igual B o B es igual a C?\n"+isOr);
 
     }
 }
