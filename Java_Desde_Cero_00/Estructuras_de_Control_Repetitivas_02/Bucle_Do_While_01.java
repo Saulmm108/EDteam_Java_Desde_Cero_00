@@ -10,9 +10,15 @@ public class Bucle_Do_While_01 {
 
         do {
             numero = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el primer numero que se encuentre entre 14 y 60"));
+            if(numero<14 || numero>60){
+                JOptionPane.showMessageDialog(null, "Debes ingresar un valor entre 14 y 60");
+            }
+        
         } while (numero < 14 || numero > 60);
 
         JOptionPane.showMessageDialog(null, "El numero ingresado es correcto");
+
+
 
     }
 }
