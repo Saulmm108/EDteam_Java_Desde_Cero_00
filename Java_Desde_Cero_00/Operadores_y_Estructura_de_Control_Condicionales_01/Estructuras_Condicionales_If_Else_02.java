@@ -2,7 +2,7 @@ package Java_Desde_Cero_00.Operadores_y_Estructura_de_Control_Condicionales_01;
 
 import javax.swing.JOptionPane;
 
-public class Estructuras_Condicionales_If_Else {
+public class Estructuras_Condicionales_If_Else_02 {
     public static void main(String[] args) {
         int numero = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un valor: "));
 
