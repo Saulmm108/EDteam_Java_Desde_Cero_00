@@ -17,8 +17,6 @@ public class Bucle_Do_While_01 {
         } while (numero < 14 || numero > 60);
 
         JOptionPane.showMessageDialog(null, "El numero ingresado es correcto");
-
-
-
+        
     }
 }
