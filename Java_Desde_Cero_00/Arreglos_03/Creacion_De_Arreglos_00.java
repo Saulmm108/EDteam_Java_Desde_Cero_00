@@ -2,7 +2,7 @@ package Java_Desde_Cero_00.Arreglos_03;
 
 import java.util.Scanner;
 
-public class Creacion_De_Arreglos {
+public class Creacion_De_Arreglos_00 {
   
 
     public static void main(String[] args) {
