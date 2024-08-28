@@ -1,4 +1,6 @@
-package Ejercicios_10.cuarta_semana_agosto.Cine;
+package Ejercicios_10.cuarta_seana_agosto.Cine;
+
+import java.util.ArrayList;
 
 public class Pelicula {
     String titulo;
@@ -37,6 +39,9 @@ public class Pelicula {
         return "Pelicula [titulo = " + titulo + ", duracion = " + duracion + ", genero = " + genero + "]";
     }
 
-    
-    
+    public static void mostrarPeliculas(ArrayList<Pelicula> peliculas){
+        for (Pelicula p: peliculas){
+            System.out.println(p);
+        }   
+    }
 }

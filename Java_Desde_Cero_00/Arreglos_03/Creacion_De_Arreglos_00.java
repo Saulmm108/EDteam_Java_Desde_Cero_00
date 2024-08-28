@@ -48,11 +48,13 @@ public class Creacion_De_Arreglos_00 {
 
     //Creamos 2 metodos
 
+    @SuppressWarnings("resource")
     public static int readValue(String message){
         System.out.println(message);
         return new Scanner(System.in).nextInt();
     }
 
+    @SuppressWarnings("resource")
     public static int readValue(int value1, int value2, int value3, int value4){
         System.out.println(readValue(null));
         return new Scanner(System.in).nextInt();

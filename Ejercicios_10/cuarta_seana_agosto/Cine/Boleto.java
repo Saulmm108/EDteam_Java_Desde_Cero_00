@@ -1,4 +1,4 @@
-package Ejercicios_10.cuarta_semana_agosto.Cine;
+package Ejercicios_10.cuarta_seana_agosto.Cine;
 
 import java.time.LocalDateTime;
 

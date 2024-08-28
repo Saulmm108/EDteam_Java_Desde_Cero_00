@@ -24,6 +24,7 @@ public class Creacion_De_Arreglos_01 {
     }
 
 
+    @SuppressWarnings("resource")
     public static int readValue(String message){
         System.out.println(message);
         return new Scanner(System.in).nextInt();
