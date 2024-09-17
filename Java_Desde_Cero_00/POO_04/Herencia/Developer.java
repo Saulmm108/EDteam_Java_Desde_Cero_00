@@ -10,7 +10,7 @@ public class Developer extends Empleado {
     public Developer(String nombre, int empreadoId, int horasTrabajadas, double horarioTarifa) {
         super(nombre, empreadoId);
         this.horasTrabajadas = horasTrabajadas;
-        HorarioTarifa = horarioTarifa;
+        this.HorarioTarifa = horarioTarifa;
     }
 
     public int getHorasTrabajadas() {
@@ -30,7 +30,7 @@ public class Developer extends Empleado {
     }
 
     @Override
-    public double CalcularSalario() {
+    public double calcularSalario() {
         return horasTrabajadas*HorarioTarifa;
     }
 

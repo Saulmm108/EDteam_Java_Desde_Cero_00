@@ -13,7 +13,7 @@ public abstract class Empleado {
     }
 
     //Metodo abstracto
-    public abstract double CalcularSalario();
+    public abstract double calcularSalario();
 
     //toString
     @Override

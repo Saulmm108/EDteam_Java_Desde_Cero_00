@@ -19,7 +19,7 @@ public class Administrador extends Empleado{
     }
 
     @Override
-    public double CalcularSalario() {
+    public double calcularSalario() {
         return 50000 + bonus;
     }
 

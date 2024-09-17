@@ -7,7 +7,7 @@ public class Menu {
         Administrador administrador = new Administrador("Jhon", 19923, 500);
         Developer developer = new Developer("Andrew", 19924, 120, 1200);
 
-        JOptionPane.showMessageDialog(null, "Salario Administrador = "+ administrador.CalcularSalario() +"\nSalario Developer = "+ developer.CalcularSalario() + 
+        JOptionPane.showMessageDialog(null, "Salario Administrador = "+ administrador.calcularSalario() +"\nSalario Developer = "+ developer.calcularSalario() + 
         "\n" + administrador + "\n" + developer);
 
     }
