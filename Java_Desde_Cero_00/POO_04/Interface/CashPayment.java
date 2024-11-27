@@ -9,13 +9,13 @@ public class CashPayment implements PaymentMethod{
     }
 
     @Override
-    public void othermethod() {
-        System.out.println("Otro metodo");
+    public void othermethod(int other) {
+        System.out.println("Otro metodo: ");
     }
 
     @Override
     public void processPaymet(double amount) {
-        System.out.println("Procesando el pegao Cash Payment" + currency);
+        System.out.println("Procesando el pegao Cash Payment: " + currency);
     }//efectivo
     
 }
