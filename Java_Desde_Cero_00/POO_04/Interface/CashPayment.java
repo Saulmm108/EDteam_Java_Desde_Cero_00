@@ -14,8 +14,7 @@ public class CashPayment implements PaymentMethod{
     }
 
     @Override
-    public void processPaymet(double amount) {
+    public void processPaymet(double monto) {
         System.out.println("Procesando el pegao Cash Payment: " + currency);
     }//efectivo
-    
 }
